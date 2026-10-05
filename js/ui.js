@@ -251,7 +251,7 @@ function createLeaderboardContent(results) {
   return createElement('table', {
     className: 'leaderboard',
     children: [
-      createElement('caption', { text: 'Лучшие результаты — от меньшего числа ходов к большему' }),
+      createElement('caption', { text: 'Лучшие результаты: от меньшего числа ходов к большему' }),
       head,
       body,
     ],
