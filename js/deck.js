@@ -1,14 +1,14 @@
 'use strict';
 
 const CARD_SET = [
-  { id: 'fox', symbol: '🦊', name: 'Лиса' },
-  { id: 'panda', symbol: '🐼', name: 'Панда' },
-  { id: 'frog', symbol: '🐸', name: 'Лягушка' },
+  { id: 'peacock', symbol: '🦚', name: 'Павлин' },
+  { id: 'penguin', symbol: '🐧', name: 'Пингвин' },
+  { id: 'butterfly', symbol: '🦋', name: 'Бабочка' },
   { id: 'octopus', symbol: '🐙', name: 'Осьминог' },
   { id: 'unicorn', symbol: '🦄', name: 'Единорог' },
   { id: 'bee', symbol: '🐝', name: 'Пчела' },
-  { id: 'dolphin', symbol: '🐬', name: 'Дельфин' },
-  { id: 'lion', symbol: '🦁', name: 'Лев' },
+  { id: 'whale', symbol: '🐳', name: 'Кит' },
+  { id: 'tiger', symbol: '🐯', name: 'Тигр' },
 ];
 
 

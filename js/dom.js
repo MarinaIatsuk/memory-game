@@ -65,4 +65,37 @@ function createElement(tag, options = {}) {
   return element;
 }
 
+function createButton(options = {}) {
+  const { label, icon, ariaLabel, variant = 'default', onClick } = options;
+  const classNames = ['button'];
 
+  if (variant !== 'default') {
+    classNames.push(`button--${variant}`);
+  }
+
+  const button = createElement('button', {
+    className: classNames,
+    attrs: {
+      type: 'button',
+      'aria-label': ariaLabel || null,
+    },
+    on: onClick ? { click: onClick } : null,
+  });
+
+  if (icon) {
+    appendChildren(button, createElement('span', {
+      className: 'button__icon',
+      text: icon,
+      attrs: { 'aria-hidden': 'true' },
+    }));
+  }
+
+  if (label) {
+    appendChildren(button, createElement('span', {
+      className: 'button__label',
+      text: label,
+    }));
+  }
+
+  return button;
+}

@@ -81,7 +81,7 @@ function showWinModal(result) {
     title: 'Победа!',
     content: createWinContent(result),
     actions: [
-      { label: 'Новая игра', icon: '🔄', variant: 'primary', onClick: startGame },
+      { label: 'Новая игра', variant: 'primary', onClick: startGame },
       { label: 'Закрыть', variant: 'ghost' },
     ],
   });

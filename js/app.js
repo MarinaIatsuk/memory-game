@@ -17,7 +17,7 @@ function initApp() {
   const footer = createElement('footer', {
     className: 'footer',
     children: createElement('p', {
-      text: 'Memory Game — RS School. Изображения карточек — эмодзи Unicode.',
+      text: 'Memory Game  RS School',
     }),
   });
 
